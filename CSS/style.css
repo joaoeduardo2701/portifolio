@@ -1,0 +1,64 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(56, 9, 109);
+}
+
+header{
+    background-color: black;
+    padding: 15px;
+    text-align: right;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: gray;
+}
+header nav a{
+    color: white;
+    text-decoration: none;
+    text-align: right;
+    margin: 5px;
+}
+
+.cabecalho {
+    margin-bottom: 100px;
+    
+}
+
+main {
+    color: white;
+    width: 100%;
+    margin: auto;
+    padding: 20px 50px;
+}
+
+.artigo {
+
+}
+
+footer{
+    text-align: center;
+    background-color: black;
+    padding: 15px;
+}
+footer a {
+    text-decoration: none;
+    color: white;
+    padding: 0 5px;
+}
+
+#foto-perfil {
+    border: 4px solid white;
+    border-radius: 50%;
+    box-shadow: 5px 5px 5px black;
+}
+
+.foto-perfil {
+    text-align: right;
+    
+}
