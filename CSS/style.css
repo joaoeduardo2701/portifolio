@@ -2,12 +2,11 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Verdana, Tahoma, sans-serif;
 }
 
-/* Estilização HomE */
+/* Estilização Home */
 body {
-    /*background-color: rgb(29, 49, 161);*/
     background-color: white;
 }
 
@@ -19,10 +18,6 @@ header{
     font-size: 15px;
     position: fixed;
     top: 0;
-}
-
-#logo {
-    width: 30px;
 }
 
 #botao-menu:hover {
@@ -63,7 +58,8 @@ footer{
     background-color: rgb(37, 37, 39);
     padding: 15px;
 }
-footer a {
+
+footer > a {
     text-decoration: none;
     color: white;
     padding: 0 5px;
@@ -78,12 +74,13 @@ footer a {
     text-align: right;
 }
 
-/* Estilização Projeto */
+/* Estilização Projetos */
 
 #titulo-projetos {
     margin-top: 80px;
     margin-left: 100px;
 }
+
 .box{
     margin-top: 80px;
     margin-left: 100px;
@@ -91,9 +88,15 @@ footer a {
     width: 300px;
     height: 150px;
     background-color: black;
+    text-align: center;
 }
 
 #box-projetos {
     color: white;
-    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+#box-projetos:hover {
+    color: rgb(41, 155, 155)
 }
