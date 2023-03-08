@@ -1,6 +1,6 @@
 # Quem sou eu?
 
-Me chamo Eduardo, tenho 17 anos, no próximo ano estarei entrando na faculdade de Ciência da Computação e estou extremamente ancioso para começar. Comecei a minha trajetória no mundo da programação com 14 anos, quando encontrei um curso de Pascal no YouTube e depois do meu primeiro Hello World cada vez me apaixonei mais pela área da tecnologia.
+Me chamo Eduardo, tenho 18 anos, estou no primeiro semestres do curso de Ciência da Computação. Comecei a minha trajetória no mundo da programação com 13 anos, que foi a idade quando a minha escola começou a ter aulas de robótica. Foi paixão a primeira vista, depois fui procurar mais sobre o assunto na internet e foi aonde comecei a fazer um curso de python.
 
 # Intuito desse projeto
 
