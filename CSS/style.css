@@ -6,23 +6,20 @@
 }
 
 /* Estilização Home */
-body {
-    background-color: white;
-}
 
-header{
+header {
     width: 100%;
-    background-color: rgb(37, 37, 39);
+    background-color: #2d2d2d;
     padding: 20px;
     text-align: center;
-    font-size: 15px;
+    font-size: 18px;
     position: fixed;
     top: 0;
 }
 
 #botao-menu:hover {
-    text-decoration: underline;
-    color: rgb(41, 155, 155);
+    color: rgb(53, 179, 179);
+    border-bottom: 2px solid rgb(53, 179, 179);
 }
 
 #botao-menu {
@@ -31,72 +28,80 @@ header{
     margin: 10px;
 }
 
-.cabecalho {
-    margin-bottom: 100px;
-    
+.sobre {
+    color: white;
+    background-color: #272727;
+    margin-top: 58px;
+    height: 700px;
+    padding: 200px 300px;
 }
 
-h1 {
-    color: rgb(41, 155, 155);
+.sobre span {
+    color: rgb(53, 179, 179);
+}
+
+.sobre h1, .sobre h2 {
+    font-size: 30pt;
+}
+
+.sobre p {
+    margin-top: 20px;
+    max-width: 1100px;
+    font-size: 13pt;
 }
 
 main {
-    color: rgb(37, 37, 39);
-    margin-top: 100px;
-    margin-left: 100px;
-    margin-right: 100px;
-    padding: 20px 50px;
+    text-align: center;
+    margin-top: 70px;
+    padding:  50px;
 }
 
-.artigo {
-    margin-top: 120px;
-    text-align: justify;
+main p {
+    margin-top: 40px;
+}
+  
+.habilidades {
+    background-color: rgb(53, 179, 179);
+    width: 100%;
+    color: white;
+    padding: 40px;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.habilidades-imagens {
+    display: inline;
+}
+
+.habilidades h1 {
+    font-size: 20pt;
+}
+
+#img1, #img2, #img3 {
+    width: 200px;
+    margin-top: 50px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.center {
+    max-width: 1100px;
+    text-align: left;
+    margin: auto;
 }
 
 footer{
     text-align: center;
     background-color: rgb(37, 37, 39);
     padding: 15px;
+    bottom: 0;
+    width: 100%;
 }
 
 footer > a {
     text-decoration: none;
     color: white;
     padding: 0 5px;
-}
 
-#foto-perfil {
-    border: 4px solid black;
-    border-radius: 50%;
-}
-
-.foto-perfil {
-    text-align: right;
-}
-
-/* Estilização Projetos */
-
-#titulo-projetos {
-    margin-top: 80px;
-    margin-left: 100px;
-}
-
-.box{
-    margin-top: 80px;
-    margin-left: 100px;
-    display: inline-block;
-    width: 300px;
-    height: 150px;
-    background-color: black;
-    text-align: center;
-}
-
-#box-projetos {
-    color: white;
-    text-decoration: none;
-    font-size: 20px;
-}
-
-#box-projetos:hover {
-    color: rgb(41, 155, 155)
 }
