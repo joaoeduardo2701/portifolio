@@ -31,8 +31,12 @@ header {
 .sobre {
     color: white;
     background-color: #272727;
+    background-image: url('background.png');
+    background-repeat: no-repeat;
+    background-position: center top;
     margin-top: 58px;
-    height: 700px;
+    background-size: 100%;
+    height: 832px;
     padding: 200px 300px;
 }
 
