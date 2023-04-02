@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./CSS/style.css">
-    <title>Eduardo Cardoso</title>
+    <title>Eduardo Cardoso - Front-end developer</title>
 </head>
 <body>
     <header>
@@ -19,11 +19,16 @@
     </header>  
 
     <section id="home">
+        <aside>
             <h1>Eduardo <span>Cardoso</span></h1>
             <h2>Front-end developer</h2>
             <p>Apenas um jovem de 18 anos apaixonado por tecnologia</p>
+        </aside>
+        <div class="img">
+            <img src="perfil.png" alt="foto de perfil" style="width: 400px;">
+        </div>
     </section>
-    
+
     <main id="sobre">
         <div class="center">
             <h1 style="text-align: center;">Sobre o desenvolvedor</h1>
@@ -33,27 +38,40 @@
         </div>
     </main>
 
-    <section id="habilidades">
-        <h1>Habilidades</h1>
-        <div class="habilidades-imagens">
-            <img src="./imagens/html-logo.png" alt="html logo" id="img1">
-            <img src="./imagens/css-logo.png" alt="css logo" id="img2">
-            <img src="./imagens/js-logo.png" alt="js logo" id="img3">
+    <section id="projetos">
+        <h1>Projetos</h1>
+        <div class="projetos-box">
+            <div class="box1"></div>
+            <div class="box1"></div>
+            <div class="box1"></div>
         </div>
     </section>
 
-    <section id="projetos">
-        <h1>Projetos</h1>
-        <div class="box1"></div>
-        <div class="box1"></div>
-        <div class="box1"></div>
+    <section id="habilidades">
+        <h1>Habilidades</h1>
+        <div class="habilidades-imagens">
+            <div class="img1">
+                <img src="./imagens/html-logo.png" alt="html logo" id="img1">
+            </div>
+            <div class="im2">
+                <img src="./imagens/css-logo.png" alt="css logo" id="img2">
+            </div>
+            <div class="img3">
+                <img src="./imagens/js-logo.png" alt="js logo" id="img3">
+            </div>
+        </div>
     </section>
     
 
     <section id="contato">
-        <h1>Contato</h1>
-            
+            <h1>Contato</h1>    
+            <form action="https://formsubmit.com/duducardoso2701@gmail.com" method="POST">
+                <input type="email" placeholder="E-mail" name="email" id="email" required>
+                <textarea name="formulario" id="formulario" cols="30" rows="10"></textarea>
+                <input id="submit" type="submit" value="Enviar">
+            </form>
     </section>
+
     <footer>
         <a href="https://github.com/joaoeduardo2701" target="_blank" id="botao-menu">GitHub</a>
         <a href="https://www.linkedin.com/in/jo%C3%A3o-eduardo-cardoso-padilha-95913a259/" target="_blank" id="botao-menu">Linkedin</a>
