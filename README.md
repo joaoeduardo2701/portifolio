@@ -8,4 +8,6 @@ Esse site foi criado com o intuito de divulgar para o mundo os meus conhecimento
  
 # Link do site
 
+O site ainda esta sendo desenvolvido, porém você pode ter acesso clicando no link abaixo:
+
 https://joaoeduardo2701.github.io/portifolio/
