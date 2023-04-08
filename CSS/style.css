@@ -1,201 +1,151 @@
 * {
-    padding: 0;
     margin: 0;
+    padding: 0;
     box-sizing: border-box;
-    font-family: Verdana, Tahoma, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-/* Menu */
+body {
+    background-color: #040405;
+}
 
 header {
-    width: 100%;
-    background-color: #1a1a1a;
-    padding: 20px;
-    text-align: center;
-    font-size: 18px;
-    position: fixed;
-    top: 0;
-}
-
-#botao-menu:hover {
-    color: rgb(53, 179, 179);
-    border-bottom: 2px solid rgb(53, 179, 179);
-}
-
-#botao-menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: bold;
+    font-size: 20px;
+    margin: auto;
+    padding: 20px 10%;
     color: white;
-    text-decoration: none;
-    margin: 10px;
+    background-color: #040405;
 }
 
-/* Home */
+#span {
+    color: aqua;
+}
+
+nav a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: white;
+}
+
+nav a:hover {
+    border-bottom: 2px solid aqua;
+}
 
 #home {
+    border-bottom: 2px solid aqua;
+}
+
+.Home {
     color: white;
-    background-color: #272727;
-    background-image: url('background.png');
-    background-repeat: no-repeat;
-    background-position: center top;
-    margin-top: 58px;
-    background-size: 100%;
-    height: 832px;
-    padding: 200px 300px;
+    height: 90vh;
     display: flex;
-    flex-direction: row;
+    font-size: 40px;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-color: #040405;
+    padding: 300px;
 }
 
-#home h1 {
-    margin-top: 100px;
-}
-#home span {
-    color: rgb(53, 179, 179);
-}
-
-#home h1, #home h2 {
-    font-size: 30pt;
-}
-
-#home p {
-    margin-top: 20px;
-    max-width: 1100px;
-    font-size: 13pt;
-}
-
-#home .img {
-
-    margin-left: 50%;
-} 
-
-
-/* Sobre */
-
-main {
-    text-align: center;
-    padding:  150px;
-    background-color: rgb(53, 179, 179);;
-    color: white;
-}
-
-main p {
-    margin-top: 40px;
-}
-
-/* Habilidades */
-  
-#habilidades {
-    /*background-color: rgb(53, 179, 179);*/
-    background-color: gray;
-    width: 100%;
-    color: white;
-    padding: 40px;
-    text-align: center;
-}
-
-.habilidades-imagens {
-    display: flex;
-    justify-content: space-around;
-    max-width: 1100px;
+.Sobre {
+    padding: 200px;
+    max-width: 1300px;
     margin: auto;
-    padding-bottom: 150px;
-    flex-wrap: wrap;
+    color: white;
+    background-color: #15151a;
+    border-radius: 20px;
+    margin-bottom: 150px;
 }
 
-#habilidades h1 {
-    font-size: 20pt;
-    border-top: 75px;
-    padding-bottom: 75px;
+.Sobre h1 {
+    text-align: center;
 }
 
-#img1, #img2, #img3 {
-    width: 200px;
-    margin-top: 50px;
-    background-color: white;
+.Sobre p {
+    text-align: center;
     padding: 20px;
-    border-radius: 10px;
 }
 
-.center {
+.Projetos {
+    margin-top: 150px;
+    margin-bottom: 150px;
+    color: white;
+    text-align: center;
+}
+
+.box {
+    display: flex;
+    align-items: center;
     max-width: 1100px;
-
     margin: auto;
+    padding: 50px;
+    
 }
-
-/* Projetos */
 
 .box1 {
-    height: 200px;
-    width: 200px;
-    background-color: aqua;
-    border-radius: 10px;
-    border: 1px solid black;
-}
-
-#projetos {
-    background-color: #222;
+    background-color: #15151a;
     color: white;
     padding: 100px;
+    margin: auto;
+    border-radius: 15px;
+    font-size: 25px;
+    
 }
 
-#projetos h1 {
-    padding: 40px;
+.box2 {
+    background-color: #15151a;
+    color: white;
+    padding: 100px;
+    margin: auto;
+    border-radius: 15px;
+    font-size: 25px;
+}
+
+.box3 {
+    background-color: #15151a;
+    color: white;
+    padding: 100px;
+    margin: auto;
+    border-radius: 15px;
+    font-size: 25px;
+}
+
+.box1:hover {
+    background-color: #15151a7b;
+    cursor: pointer;
+}
+
+.box2:hover {
+    background-color: #15151a7b;
+    cursor: pointer;
+}
+
+.box3:hover {
+    background-color: #15151a7b;
+    cursor: pointer;
+}
+
+.Conhecimentos {
+    color: white;
+    text-align: center;
+    padding: 50px 200px;
+    background-color: #15151a;
+}
+
+.Contato {
+    color: white;
     text-align: center;
 }
 
-.projetos-box {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-}
-/* Contato */
-
-#contato {
-    padding: 150px;
-}
-
-form {
-    display: flex;  
-    flex-direction: column;  
-    justify-content: center;
-    border: none;
-}
-
-form textarea{
-    border-radius: 15px;
-    width: 550px;
-    outline: none;
+footer {
     padding: 20px;
-}
-
-form input {
-    width: 550px;
-    height: 50px;
-    border-radius: 15px;
-    padding: 20px;
-    border: 1px solid black;
-    outline: none;
-    margin-top: 50px;
-}
-
-form #submit {
-    background-color: rgb(53, 179, 179);
+    background-color: #15151a;
     color: white;
-}
-
-/* Footer */
-footer{
     text-align: center;
-    background-color: rgb(37, 37, 39);
-    padding: 15px;
-    bottom: 0;
-    width: 100%;
 }
-
-footer > a {
-    text-decoration: none;
-    color: white;
-    padding: 0 5px;
-}
-
 
 ::-webkit-scrollbar {
     width: 10px;
@@ -207,6 +157,6 @@ footer > a {
 }
 
 ::-webkit-scrollbar-thumb {
-    background-color: rgb(53, 179, 179);
+    background-color: aqua;
     border-radius: 30px;
 }
