@@ -24,6 +24,10 @@ header {
     background-color: #040405;
 }
 
+header a {
+    text-decoration: none;
+}
+
 #span {
     color: aqua;
 }
@@ -161,13 +165,10 @@ nav a:hover {
 
 .habilidades {
     display: flex;
-    align-items: center;
-    
+    justify-content: space-around;
+    margin-top: 50px;
 }
 
-html-logo, css-logo, js-logo {
-    margin-left: 50px;
-}
 
 /* CONTATO */ 
 
@@ -185,6 +186,13 @@ footer {
     background-color: #15151a;
     color: white;
     text-align: center;
+    margin-top: 150px;
+}
+
+/* CONTATO */
+
+.Contato {
+    margin-top: 150px;
 }
 
 /* CONFIGURAÇÕES DA BARRA LATERAL */
