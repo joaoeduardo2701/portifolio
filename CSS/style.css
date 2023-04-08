@@ -9,6 +9,9 @@ body {
     background-color: #040405;
 }
 
+/* HEADERr */
+
+
 header {
     display: flex;
     align-items: center;
@@ -35,6 +38,9 @@ nav a:hover {
     border-bottom: 2px solid aqua;
 }
 
+/* HOME */
+
+
 #home {
     border-bottom: 2px solid aqua;
 }
@@ -49,6 +55,9 @@ nav a:hover {
     background-color: #040405;
     padding: 300px;
 }
+
+/* SOBRE */
+
 
 .Sobre {
     padding: 200px;
@@ -68,6 +77,9 @@ nav a:hover {
     text-align: center;
     padding: 20px;
 }
+
+/* PROJETOS */
+
 
 .Projetos {
     margin-top: 150px;
@@ -128,17 +140,45 @@ nav a:hover {
     cursor: pointer;
 }
 
+/* CONHECIMENTOS */
+
+
 .Conhecimentos {
     color: white;
     text-align: center;
     padding: 50px 200px;
     background-color: #15151a;
+    max-width: 1100px;
+    margin: auto;
+
 }
+
+.Conhecimentos img {
+    width: 200px;
+    display: flex;
+    align-items: top;
+}
+
+.habilidades {
+    display: flex;
+    align-items: center;
+    
+}
+
+html-logo, css-logo, js-logo {
+    margin-left: 50px;
+}
+
+/* CONTATO */ 
+
 
 .Contato {
     color: white;
     text-align: center;
 }
+
+/* FOOTER */
+
 
 footer {
     padding: 20px;
@@ -146,6 +186,9 @@ footer {
     color: white;
     text-align: center;
 }
+
+/* CONFIGURAÇÕES DA BARRA LATERAL */
+
 
 ::-webkit-scrollbar {
     width: 10px;
