@@ -5,6 +5,10 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     background-color: #040405;
 }
@@ -63,8 +67,8 @@ nav a:hover {
 /* SOBRE */
 
 
-.Sobre {
-    padding: 200px;
+#Sobre {
+    padding: 100px;
     max-width: 1300px;
     margin: auto;
     color: white;
@@ -73,19 +77,22 @@ nav a:hover {
     margin-bottom: 150px;
 }
 
-.Sobre h1 {
+#Sobre h1 {
     text-align: center;
+    font-size: 30px;
 }
 
-.Sobre p {
+#Sobre p {
     text-align: center;
     padding: 20px;
+    margin-top: 50px;
+    font-size: 17px;
 }
 
 /* PROJETOS */
 
 
-.Projetos {
+#Projetos {
     margin-top: 150px;
     margin-bottom: 150px;
     color: white;
@@ -98,7 +105,9 @@ nav a:hover {
     max-width: 1100px;
     margin: auto;
     padding: 50px;
-    
+    background-color: #15151a85;
+    margin-top: 20px;
+    color: white;
 }
 
 .box1 {
@@ -108,7 +117,7 @@ nav a:hover {
     margin: auto;
     border-radius: 15px;
     font-size: 25px;
-    
+    text-decoration: none;
 }
 
 .box2 {
@@ -147,7 +156,7 @@ nav a:hover {
 /* CONHECIMENTOS */
 
 
-.Conhecimentos {
+#Conhecimentos {
     color: white;
     text-align: center;
     padding: 50px 200px;
@@ -157,7 +166,7 @@ nav a:hover {
 
 }
 
-.Conhecimentos img {
+#Conhecimentos img {
     width: 200px;
     display: flex;
     align-items: top;
@@ -173,7 +182,7 @@ nav a:hover {
 /* CONTATO */ 
 
 
-.Contato {
+#Contato {
     color: white;
     text-align: center;
 }
@@ -191,7 +200,7 @@ footer {
 
 /* CONTATO */
 
-.Contato {
+#Contato {
     margin-top: 150px;
 }
 
